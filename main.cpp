@@ -17,7 +17,7 @@ int main()
     for(int i = 0; i < 10; ++i)
     {
         s[i].data = i+1;
-        cout << "Your data: " << s[i].data << "," << endl;
+        cout << "Your task: " << s[i].data << "," << endl;
 
         cout << "Enter name of the Task: ";
         cin >> s[i].nameOfTheTask;
